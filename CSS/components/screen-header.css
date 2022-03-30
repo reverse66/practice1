@@ -2,12 +2,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 45px 25px;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;
+  margin-top: 15px;
 }
 .screen-header__icons span {
   margin-left: 25px;
+}
+.screen-header__icons {
+  position: relative;
+}
+.point {
+  position: absolute;
+  top: -5px;
+  left: 120px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: tomato;
 }
